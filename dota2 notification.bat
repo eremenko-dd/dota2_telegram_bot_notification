@@ -1,6 +1,8 @@
 @echo off
 
 setlocal
+rem Add Russian text
+chcp 65001
 
 rem You need to specify the telegram bot token
 set TOKEN=
